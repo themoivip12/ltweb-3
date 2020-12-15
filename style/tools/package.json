@@ -1,0 +1,33 @@
+{
+	"name": "designbold",
+	"description": "Official Theme for DesignBold Website",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/techevo/designbold.com.git"
+	},
+	"theme_name": "DesignBold",
+	"theme_prefix": "db",
+	"theme_url": "https://www.designbold.com",
+	"author": "Workevo <hi@workevo.com>",
+	"author_name": "Workevo",
+	"author_homepage": "https://www.designbold.com",
+	"readme": "https://www.designbold.com",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"browser-sync": "^2.26.12",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssnano": "^2.1.3",
+		"gulp-rename": "^1.4.0",
+		"gulp-replace": "^1.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-terser": "^1.2.0"
+	},
+	"scripts": {
+		"start": "gulp watch",
+		"build": "gulp build"
+	}
+}
