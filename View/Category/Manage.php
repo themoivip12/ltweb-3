@@ -1,8 +1,8 @@
 
 <div class="bg-white p-4 ">
 <div class="d-flex justify-content-between mb-7">
-		<h3 class="mb-0"><a href="admin.php?mod=category&act=manage">Quản lý thể loại</a></h3>
-		<a class="btn btn-primary" href="admin.php?mod=category&act=insert">Thêm thể loại</a>
+		<h3 class="mb-0"><a href="admin.php?mod=category&act=manage">Quản lý nhóm</a></h3>
+		<a class="btn btn-primary" href="admin.php?mod=category&act=insert">Thêm nhóm</a>
 	</div>
 	<table class="table" width="100%">
     <tr class="title"><th>Mã thể loại</th><th>Tên thể loại</th><th class="text-center">Xóa</th><th class="text-center">Sửa</th></tr>

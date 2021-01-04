@@ -50,12 +50,12 @@
 					<td><input class="form-control" type="text" name="txtPrice" id="txtPrice" value="<?php echo $row['Price']; ?>" /></td>
 				</tr>
 				<tr>
-					<td>Số lượng (*)/td>
+					<td>Số lượng (*)</td>
 					<td><input class="form-control" type="text" name="txtQuantity" id="txtQuantity" value="<?php echo $row['Quantity']; ?>" /></td>
 				</tr>
 				<tr>
 					<td>Ảnh</td>
-					<td><img src="img/<?php echo $row['ImageUrl'] ?>" width="100" /></td>
+					<td><img src="upload/<?php echo $row['ImageUrl'] ?>" width="100" /></td>
 				</tr>
 				<tr>
 					<td></td>

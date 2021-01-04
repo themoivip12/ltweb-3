@@ -3,22 +3,10 @@
 <h2><span><a href="admin.php?mod=user&act=edit&id=<?php echo $id; ?>">Chỉnh thành viên</a></span></h2>
 
 	<form action="admin.php?mod=user&act=edit&id=<?php echo $id; ?>" method="post" class="form">
-    <p><label>Tên đăng nhập</label><input readonly="readonly" type="text" name="txtUserName" id="txtUserName" value="<?php echo $row['UserName']; ?>"/></p>
-    <p><label>Nhóm</label>
-        <select name="slGroup" style="margin-left: 54px;">
-            <?php
-				foreach($ret as $rowgroup)
-				{
-					if($rowgroup['GroupID']==$row['GroupID'])
-					{
-						echo "<option value=\"$rowgroup[GroupID]\" selected=\"selected\" >$rowgroup[GroupName]</option>";
-					}
-					else
-						echo "<option value=\"$rowgroup[GroupID]\" >$rowgroup[GroupName]</option>";
-				}
-			?>
-        </select></p>
-        <p><label>&nbsp;</label><input type="submit" name="btnChange" id="btnChange" value="Đổi thông tin" style="margin-left: 94px;" /></p>
+    <p><label>Tên đăng nhập</label><input readonly="readonly" type="text" name="txtUserName" id="txtUserName" class="form-control" value="<?php echo $row['UserName']; ?>"/></p>
+	<p><label>Họ tên</label><input type="text" name="txtFullName" id="txtFullName" value="<?php echo $row['FullName']; ?>" class="form-control"/></p>
+    <p><label>Email</label><input type="text" name="txtEmail" id="txtEmail" value="<?php echo $row['Email'] ?>" class="form-control"/></p>
+        <p><label>&nbsp;</label><input type="submit" name="btnChange" id="btnChange" value="Đổi thông tin" class="btn btn-primary" /></p>
     </form>
 
 </div>

@@ -1,7 +1,7 @@
 <div class="bg-white p-4">
 	<div class="d-flex justify-content-between mb-7">
-		<h3 class="mb-0"><a href="admin.php?mod=products&act=manage">Quản lý sản phẩm</a></h3>
-		<a class="btn btn-primary" href="admin.php?mod=user&act=register">Thêm sản phẩm</a>
+		<h3 class="mb-0"><a href="admin.php?mod=user&act=manage">Quản lý thành viên</a></h3>
+		<a class="btn btn-primary" href="admin.php?mod=user&act=register">Thêm thành viên</a>
 	</div>
 
 

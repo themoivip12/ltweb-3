@@ -15,7 +15,7 @@
 			$user = new User();
 			$res = $user->createNewUser($fullName,$userName,$passWord,$email);
 			if($res){
-				header("location: login.php");
+				header("location: login.php?mod=user&act=login");
 			}
 			else{
 				echo "<p class=\"error\">Tên đăng nhập bị trùng<p>";
