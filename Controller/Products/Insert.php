@@ -1,11 +1,8 @@
 <?php
-	include_once("Model/Manufacturer.php");
 	include_once("Model/Category.php");
 	include_once("Model/Products.php");
 	$product = new Products();
-	$manufacturer = new Manufacturer();
 	$category = new Category();
-	$manu = $manufacturer->getManufacturer();
 	$cate = $category->getCategory();
 
 	include_once("View/Products/Insert.php");
@@ -19,7 +16,6 @@
 		$body = addslashes($_POST['txtBody']);
 		$description=addslashes($_POST['txtDescription']);
 		$categoryID=$_POST["slCategory"];
-		$manufacturerID=$_POST["slManufacturer"];
 
 		// echo $filename;
 		if($filename!="")

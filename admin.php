@@ -5,11 +5,12 @@
     <!--Start Main-->
 
     <div id="page" class="container">
-        <div id="page-in" class="row">
+        <div id="page-in" class="row py-7">
             <div class="col-3">
-                <div class="list-group mt-7">
+                <div class="list-group">
                     <a href="admin.php?mod=products&act=manage" class="list-group-item list-group-item-action">Quản lý sản phẩm</a>
                     <a href="admin.php?mod=category&act=manage" class="list-group-item list-group-item-action">Quản lý nhóm</a>
+                    <a href="admin.php?mod=manufacturer&act=manage" class="list-group-item list-group-item-action">Quản lý nhà cung cấp</a>
                     <a href="admin.php?mod=user&act=manage" class="list-group-item list-group-item-action">Quản lý thành viên</a>
                 </div>
             </div> <!-- /col -->

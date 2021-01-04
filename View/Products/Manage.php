@@ -1,5 +1,5 @@
 	
-<div class="bg-white p-4 mt-7">
+<div class="bg-white p-4">
 	<div class="d-flex justify-content-between mb-7">
 		<h3 class="mb-0"><a href="admin.php?mod=products&act=manage">Quản lý sản phẩm</a></h3>
 		<a class="btn btn-primary" href="admin.php?mod=products&act=insert">Thêm sản phẩm</a>

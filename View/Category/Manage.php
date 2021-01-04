@@ -1,5 +1,5 @@
 
-<div class="mt-7  bg-white p-4 ">
+<div class="bg-white p-4 ">
 <div class="d-flex justify-content-between mb-7">
 		<h3 class="mb-0"><a href="admin.php?mod=category&act=manage">Quản lý thể loại</a></h3>
 		<a class="btn btn-primary" href="admin.php?mod=category&act=insert">Thêm thể loại</a>

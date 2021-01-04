@@ -25,14 +25,19 @@
     left: 1.25rem;
 }
 .collection{
-    &:hover{
-        .hover-opacity-2{
-            background-color:  rgba(0, 0, 0, 0.35);
-            top: 0;
+    .hover-opacity-2{
+    transition-duration: 0.7s;
+    top: 0;
             right: 0;
             height: 100%;
             width: 100%;
-            transition-duration: 0.3s;
+            background-color:  rgba(0, 0, 0, 0);
+        }
+    &:hover{
+        .hover-opacity-2{
+            background-color:  rgba(0, 0, 0, 0.35);
+            
+
         }
     }
 }
@@ -158,4 +163,7 @@
     cursor: pointer;
     border-radius: 4px;
     box-shadow: none;
+}
+.table th, .table td{
+    vertical-align: baseline !important;
 }
